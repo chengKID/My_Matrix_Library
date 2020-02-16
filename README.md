@@ -16,6 +16,7 @@ Hier we implement the linear operations like: matrix addition, matrix subtractio
 * Matrix Multiplication: A * B;     A * b;      b * A;      a * A
 * Matrix Transpose: A.Transpose()
 * Linear Solving the equation A * x = b: x = LinaerSolving(A, b)
+
 Note: for all of these operators the corresponding oprators must have the right diemntions.
 
 ## Implement the Non-linear Matrix Operations
@@ -30,6 +31,7 @@ Note: for matrix inverse, the matrix must be square and non-sigular.
 We use Linux Ubuntu 16.04 and C++
 
 The link here is very helpful for understanding svd function:
+
 paper: http://www.cs.utexas.edu/users/inderjit/public_papers/HLA_SVD.pdf
 
 code: https://padas.oden.utexas.edu/software/
