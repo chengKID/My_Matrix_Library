@@ -38,14 +38,13 @@ code: https://padas.oden.utexas.edu/software/
 
 ## Build the Project
 ```bash
-$> sudo apt install libpcl-dev
 $> cd ~
-$> git clone https://github.com/chengKID/Lidar_Obstacle_Detection.git
-$> cd Lidar_Obstacle_Detection
+$> git clone git@github.com:chengKID/My_Matrix_Library.git
+$> cd My_Matrix_Library
 $> mkdir build && cd build
 $> cmake ..
 $> make
-$> ./environment
+$> ./bin/matrix_operations
 ```
 
 ## Process
